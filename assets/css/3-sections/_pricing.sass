@@ -1,0 +1,146 @@
+.Pricingwrapper
+    width: 100%
+    height: 1300px
+    overflow-x: hidden
+    
+    .BGWrapper
+        width: 100%
+        position: relative
+        +display(flex)
+        +flex-direction(column)
+        +align-items(center)
+        float: left
+
+    .TopBG
+        height: 400px
+        width: 100%
+        z-index: 1
+        background: url(../img/UpperBG.png) center
+
+    .ImgBG
+        z-index: 0
+        height: 500px
+        min-width: 100%
+        position: relative
+        +display(flex)
+        +justify-content(center)
+        +align-items(center)
+
+        img 
+            min-width: 100%
+            max-height: 125%
+            min-height: 100%
+            object-fit: cover
+
+    .BottomBG
+        height: 400px
+        width: 100%
+        z-index: 1
+        background: url(../img/LowerBG.png) center
+    
+    .ContentWrapper
+        width: 100%
+        position: absolute
+        z-index: 2
+        float: left
+        
+    .TextCont
+        max-width: 850px
+        margin: 0px auto 25px auto
+        text-align: center
+        letter-spacing: 0.05em
+        font-size: 18px
+        line-height: 130%
+        
+    .NavCont
+        +display(flex)
+        +align-items(center)
+        +justify-content(space-around)
+        margin: 25px auto 25px
+        padding-top: 10px
+        padding-bottom: 10px
+        background: rgba(255,255,255,0.7)
+        border: 1px solid black
+        
+            
+        p
+            margin: 0px auto
+            letter-spacing: 0.05em
+            font-size: 24px
+            font-weight: 550
+            line-height: 130%
+            color: black
+            opacity: 0.7
+            cursor: pointer
+            z-index: 2
+            
+            &:hover
+                opacity: 1
+            
+        .selected
+            display: none
+            float: left
+            width: 100%
+            height: 0px
+            margin: 0 auto
+            border-top: 3px solid black
+
+    .BottomContentWrapper
+        margin-top: 25px auto
+        +display(flex)
+        +align-items(center)
+        +justify-content(space-between)
+        overflow-x: hidden
+            
+        .LeftArrBox
+            +size(40px)
+            cursor: pointer
+            opacity: 0.65
+            margin: 0 auto
+            background: rgba(255,255,255,1)
+            border: 1px solid black
+            border-radius: 20px
+        
+            path
+                fill: rgba(0,0,0,0.7)
+
+            &:hover
+                opacity: 1
+            
+        .InfoTextBox
+            background: rgba(0,0,0,0.5)
+            border: 2px solid white
+            margin: 25px 20px auto 20px
+            width: 75%
+            height: 90%
+            
+            p
+                max-width: 95%
+                margin: 25px auto 25px auto
+                text-align: left
+                letter-spacing: 0.05em
+                font-size: 18px
+                line-height: 130%
+                color: white
+                +transition(1s)
+                
+                @media screen and (max-width: 951px)
+                    letter-spacing: 0.05em
+                    font-size: 14px
+                
+            
+        .RightArrBox
+            +size(40px)
+            cursor: pointer
+            opacity: 0.5
+            margin: 0 auto
+            background: rgba(255,255,255,1)
+            border: 1px solid black
+            border-radius: 20px
+                    
+            path
+                fill: rgba(0,0,0,0.7)
+
+            &:hover
+                opacity: 1
+        

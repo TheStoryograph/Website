@@ -1,0 +1,72 @@
+#-------------------------------
+# General Site Settings
+
+title: The Storyograph
+email: Nils-Peter@The-Storyograph.com
+description: "Because a picture is worth a thousand words."
+
+
+# NOTE: The Logo and Background image are defined in the all.sass document.
+
+menu:
+- {name: The Story, url: '#theStory'}
+- {name: Portfolio, url: '#portfolio'}
+- {name: Pricing, url: '#pricing'}
+- {name: Print, url: '#print'}
+- {name: Contact, url: '#contact'}
+
+#-------------------------------
+# SEO Section
+
+# NOTE: Providing SEO information will make this website more searchable on the internet.
+
+seo:
+  description: 'Provide a description for your website to make it visible to search engines.'
+  rel-author: 'https://www.the-storyograph.com'
+  rel-publisher: 'https://www.the-storyograph.com'
+
+#-------------------------------
+# Google Analytics Section
+
+# Analytics helps you understand who visits your website.
+# Learn more at: http://support.google.com/analytics/answer/1008065
+
+# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
+
+#google-analytics-ua: UA-XXXXXX-X
+
+#-------------------------------
+# About Section
+
+# NOTE: The avatar is defined in the all.sass document.
+
+
+#-------------------------------
+# Portfolio Section
+
+portfolio:
+- {name: Travel & Landscape, folder: 'travel_and_landscape', file: 'portfolio/tra_and_lan.html'}
+- {name: Portrait, folder: 'portrait', file: 'portfolio/portrait.html'}
+- {name: Wedding, folder: 'wedding', file: 'portfolio/wedding.html'}
+
+#-------------------------------
+# Clients Section
+
+pricing:
+- {name: Wedding, folder: 'wedding', file: 'pricing/wedding.html'}
+- {name: Portrait, folder: 'portrait', file: 'pricing/portrait.html'}
+- {name: Travel, folder: 'travel', file: 'pricing/travel.html'}
+- {name: Event, folder: 'event', file: 'pricing/event.html'}
+
+#-------------------------------
+# Contact Section
+
+social:
+- {icon: 'twitter', link: 'http://twitter.com/devtipsshow'}
+- {icon: 'dribbble', link: 'https://dribbble.com/travisneilson'}
+- {icon: 'behance', link: 'https://www.behance.net/travisneilson'}
+- {icon: 'youtube', link: 'https://www.youtube.com/DevTipsForDesigners'}
+- {icon: 'linkedin', link: 'http://www.linkedin.com/in/travisneilson/'}
+
+
+# social network icons available: 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin' / 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'

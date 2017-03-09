@@ -1,0 +1,57 @@
+<section id="portfolio" class="section-port">
+        
+    <div class="TitleContainerPort">
+        
+        <hr class="BarLeft">
+        
+        <h3>Portfolio</h3>
+        
+        <hr class="BarRight">
+        
+    </div>
+
+    <p class="AboutPortfolio"><strong>„Travel & Landscape“</strong> dokumentiert atemberaubende Landschaften und Eindrücke ferner Länder.<br />Mit <strong>„Portraits“</strong> halte ich die besondere Ausstrahlung jedes Menschen und die Beziehung zwischen zwei Menschen fest. <br />In meiner Lieblingskategorie <strong>„Wedding“</strong> biete ich einen Einblick in die Momente, die eine Hochzeit so besonders machen und die man sich so für Jahrzehnte bewahrt.</p>
+    
+    <div class="port-belt">
+        
+        <div class="thumb-wrap">
+            <div class="Tumbnail-Container">
+
+            {% for portfolio in site.data.settings.portfolio %}
+
+                <div class="thumb-unit" data-folder="{{portfolio.folder}}" style="background-image: url(/assets/img/portfolio/{{portfolio.folder}}/thumb.png);">
+
+                    <div class="overlay">
+
+                        <strong>{{ portfolio.name }}</strong>
+
+                        <div class="zoom-icon">{% include icons/icon-magglass.html%}
+                        </div>
+
+                    </div>
+
+                </div>
+
+            {% endfor %}
+
+        </div>
+        </div>
+        
+        <div class="port-wrap">
+            <div class="Portfolio-Container">
+                
+                <div class="ReturnArrow">{%include icons/icon-back.html%}</div>
+                
+                <h4 class="PortTitle"></h4>
+                
+                <div class="ContentLoad">
+                    
+                    
+                </div>
+                </div>
+                
+            </div>
+            
+        </div>
+        
+</section>

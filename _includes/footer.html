@@ -1,0 +1,16 @@
+<footer id="footer">
+    <div class="NavContainer">
+        
+        <nav class="Nav1">
+            {% for item in site.data.settings.menu %}
+                <a href="{{ item.url }}" style="text-decoration:none">{{ item.name }}</a>
+            {% endfor %}
+        </nav>
+
+        <nav class="Nav2">
+            <a href="">Impressum</a>
+        </nav>
+        
+    </div>
+    
+</footer>

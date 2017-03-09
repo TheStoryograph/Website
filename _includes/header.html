@@ -1,0 +1,19 @@
+<header>
+        
+    <div class="logo">{% include icons/logo.html %}</div>
+    
+    <nav>
+        {% for item in site.data.settings.menu %}
+            <a href="{{ item.url }}" style="text-decoration:none">{{ item.name }}</a>
+        {% endfor %}
+    </nav>
+    
+    <h1><span>{{ site.data.settings.title}}</span></h1>
+    
+    <hr class="HeaderRuler">
+
+    <p class="subtitle1"><span class="spanSub"> {{site.data.settings.description}}</span></p>
+
+
+    
+</header>

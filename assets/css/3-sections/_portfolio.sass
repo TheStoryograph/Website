@@ -1,0 +1,153 @@
+.section-port
+    background-color: black
+    overflow-x: hidden
+       
+    .TitleContainerPort
+        +display(flex)
+        +align-items(center)
+
+        .BarLeft
+            width: 750px
+            height: 0px
+            border-top: 5px solid white
+
+        h3           
+            text-align: center
+            font-size: 50px
+            font-weight: 100
+            letter-spacing: 0.1em
+            min-width: 300px
+            color: white
+
+        .BarRight
+            width: 750px
+            height: 0px
+            border-top: 5px solid white
+
+    .AboutPortfolio
+        max-width: 850px
+        margin: 0px auto 75px auto
+        text-align: center
+        letter-spacing: 0.05em
+        font-size: 18px
+        color: white
+        line-height: 130%
+        
+    .port-belt
+        width: 200%
+        position: relative
+        left: 0%
+        +transition(0.8s)
+    
+        .port-wrap, .thumb-wrap
+            width: 50%
+            float: left
+
+            .Tumbnail-Container
+                max-width: 1095px
+                margin: 0px auto
+                padding-bottom: 50px
+                +clearfix
+
+                .thumb-unit
+                    display: block
+                    width: 305px
+                    height: 305px
+                    float: left
+                    position: relative
+                    margin: 10px 30px 10px 30px
+                    background-position: center center
+                    background-repeat: no-repeat
+                    overflow: hidden
+                    +perspective(300px)
+
+                    .overlay
+                        cursor: pointer
+                        +position(absolute, 0% 0px null 0px)
+                        height: 100%
+                        background: fade-out(white, 0.5)
+                        border-radius: 295px
+                        text-align: center
+                        +transition(1s)
+                        +transform(rotateX(90deg))
+                        +transform-origin(center bottom)
+                        opacity: 0
+
+
+                        @media screen and (max-width: 1095px)
+                            width: 295px
+                            margin-left: auto
+                            margin-right: auto
+
+
+                        strong
+                            display: block
+                            padding: 120px 0px 30px 0px 
+                            color: black
+                            font-weight: 300
+                            text-transform: uppercase
+                            font-size: 24px
+
+                        .zoom-icon
+                            +size(50px)
+                            margin: 0px auto
+
+                    &:hover .overlay
+                        top: 0%
+                        +transform(rotateX(0deg))
+                        opacity: 1
+
+                    @media screen and (max-width: 1095px)
+                        width: 100%
+                        margin-left: auto
+                        margin-right: auto
+
+            .Portfolio-Container
+                max-width: 1095px
+                margin: 0px auto
+                padding-bottom: 50px
+                display: none
+                
+                .ReturnArrow
+                    display: block
+                    +size(40px)
+                    cursor: pointer
+                    opacity: 0.5
+                    +position(absolute, 7px null null null)
+                    
+                    
+                    path
+                        fill: rgba(255,255,255,0.7)
+                        
+                    &:hover
+                        opacity: 1
+                
+                .PortTitle
+                    color: white
+                    font-weight: 300
+                    text-transform: uppercase
+                    font-size: 24px
+                    text-align: center
+                    margin-top: 10px
+                    
+                .SectionDis
+                    color: white
+                    text-align: center
+                            
+                .ImgWrapper
+                    +display(flex)
+                    +flex-wrap(wrap) 
+                    +align-items(center)
+                    +justify-content(space-around)
+                    
+                    
+                    .ImgUnit
+                        display: block
+                        width: 50%
+                        float: left
+                        position: relative
+                        
+                        img
+                            max-width: 100%
+                            border: 5px solid white
+                        
