@@ -13,38 +13,67 @@
         </div>
 
         <div class="ContactInfo">
+            
             <div class="ContactIcons">
-
+                <div class="TeleIcon"><a href="">{% include icons/icon-telefone.html%}</a></div>
+                <div class="InstagramIcon"><a href="https://www.instagram.com/thestoryograph/">{% include icons/icon-instagram.html%}</a></div>
+                <div class="FacebookIcon"><a href="https://www.facebook.com/TheStoryograph/">{% include icons/icon-facebook.html%}</a></div>
             </div>
 
             <hr class="MiddleRuler">
 
-            <p class="eMailAddr">Nils-Peter@The-Storyograph.com</p>
+            <p class="eMailAddr"><a href="mailto:Nils-Peter@The-Storyograph.com" style= "color: black; text-decoration:none;">Nils-Peter@The-Storyograph.com</a></p>
 
         </div>
-
-        <div class="contactForm">
-            <p> Lass uns gemeinsam etwas einzigartiges erschaffen!</p>
-
-            <div class="Form">
-
-            </div>
-            
-        </div>
-        
-        <div class="EndIMG">
-
-                <p class="End1"><strong>The light - The moment - the shot</strong></p>
-
-                <img class="endLogo" src="/assets/img/LogoWeb.png">
-
-                <p class="End2"><strong>www.The-Storyograph.com</strong></p>
-
-
-        </div>
-
         
     </div>
+
+                
+        <p><strong> Lass uns gemeinsam etwas einzigartiges erschaffen! </strong></p>
+
+        <form action="https://formspree.io/Nils-Peter@The-Storyograph.com" method="POST">
+            
+            <div class="InfoGroup">
+                
+                <label>
+                    <span>Name</span>
+                    <input type="text" name="name">
+                </label>
+
+                <label>
+                    <span>eMail</span>
+                    <input type="email" name="_replyto">
+                </label>
+                
+            </div>
+            
+            <label>
+                <span>Erzähl mir welchen Moment ich festhalten darf.</span>    
+                <textarea name="Message"></textarea>
+            </label>
+            
+            <div class="SendButton">
+                <input type="submit" value="Send">
+            </div>
+            
+        </form>
+            
+
+        <div class="EndIMG">
+
+                <p class="End1">The light - The moment - the shot</p>
+            
+                <div class="endLogo-wrap" >
+                    <img src="/assets/img/LogoWeb.png">
+                </div>
+
+                <p class="End2">www.The-Storyograph.com</p>
+
+
+        </div>
+
+        
+    
 
 
 
