@@ -283,7 +283,7 @@ header {
 
 footer {
   height: 375px;
-  background: url(../img/Footer.jpg) center;
+  background: url(../img/footer.jpg) center;
   background-size: cover; }
   footer .NavContainer .Nav1 {
     float: right;
@@ -345,7 +345,8 @@ footer {
   align: center; }
   .face-lock .face-img {
     height: 374px;
-    width: 374px; }
+    width: 374px;
+    background-image: url(../img/SelfPort.jpg); }
 
 .AboutThisSide {
   max-width: 850px;
