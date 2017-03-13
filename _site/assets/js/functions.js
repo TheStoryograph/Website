@@ -54,7 +54,7 @@ function pricLoad() {
         var $this = $(this),
             newFolder = $this.data('folder'),
             spinner = '<div class="loader">Loading...</div>',
-            newHTML = 'Website/pricing/'+ newFolder +'.html';
+            newHTML = '/Website/pricing/'+ newFolder +'.html';
         
         $('.InfoTextBox').html(spinner).load(newHTML);
         
@@ -87,7 +87,7 @@ function  workLoad() {
             newTitle = $this.find('strong').text(),
             newFolder = $this.data('folder'),
             spinner = '<div class="loader">Loading...</div>',
-            newHTML = '../portfolio/'+ newFolder +'.html';
+            newHTML = '/Website/portfolio/'+ newFolder +'.html';
         
         $('.ContentLoad').html(spinner).load(newHTML);
         $('.PortTitle').text(newTitle);
@@ -107,7 +107,7 @@ function arrowRight() {
         
     var spinner = '<div class="loader">Loading...</div>';
         
-    $('.InfoTextBox').html(spinner).load('Website/pricing/' + getPriceFolder(pricingIndex) + '.html');
+    $('.InfoTextBox').html(spinner).load('/Website/pricing/' + getPriceFolder(pricingIndex) + '.html');
         
     });    
     
@@ -124,7 +124,7 @@ function arrowLeft() {
         selection();        
         var spinner = '<div class="loader">Loading...</div>';
         
-    $('.InfoTextBox').html(spinner).load('Website/pricing/' + getPriceFolder(pricingIndex) + '.html');
+    $('.InfoTextBox').html(spinner).load('/Website/pricing/' + getPriceFolder(pricingIndex) + '.html');
         
     });    
     
