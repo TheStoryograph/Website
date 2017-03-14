@@ -828,7 +828,8 @@ footer {
     width: 100%;
     height: 860px;
     background: url(../img/LogoWeb.png) center;
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat;
+    overflow-x: hidden; }
     .BGPrint .PrintCont .LeftPrintCont {
       display: -webkit-box;
       display: -moz-box;
@@ -938,7 +939,8 @@ footer {
       width: 50%;
       float: right;
       height: 100%;
-      z-index: 1; }
+      z-index: 1;
+      overflow-x: hidden; }
       .BGPrint .PrintCont .RightPrintCont .PrintContRight {
         width: 90%;
         height: 33%; }
