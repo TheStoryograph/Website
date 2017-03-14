@@ -681,6 +681,12 @@ footer {
     letter-spacing: 0.05em;
     font-size: 18px;
     line-height: 130%; }
+    .Pricingwrapper .TextCont p {
+      margin: 0px auto 25px auto;
+      text-align: center;
+      letter-spacing: 0.05em;
+      font-size: 18px;
+      line-height: 130%; }
   .Pricingwrapper .NavCont {
     display: -webkit-box;
     display: -moz-box;
@@ -995,7 +1001,8 @@ footer {
           transform: rotateX(0deg);
           opacity: 1; }
   .BGPrint .PrintInfoCont {
-    width: 850px;
+    max-width: 850px;
+    min-width: 80%;
     margin: 0 auto;
     background: rgba(255, 255, 255, 0.3);
     border: 5px solid black; }
