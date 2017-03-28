@@ -549,8 +549,13 @@ footer {
           text-align: center;
           margin-top: 10px; }
         .section-port .port-belt .port-wrap .Portfolio-Container .SectionDis, .section-port .port-belt .thumb-wrap .Portfolio-Container .SectionDis {
+          border: 5px solid white;
+          padding: 10px 10px 10px 10px;
           color: white;
-          text-align: center; }
+          text-align: left;
+          font-weight: 100;
+          font-size: 16px;
+          margin-top: 10px; }
         .section-port .port-belt .port-wrap .Portfolio-Container .ImgWrapper, .section-port .port-belt .thumb-wrap .Portfolio-Container .ImgWrapper {
           display: -webkit-box;
           display: -moz-box;
