@@ -52,5 +52,3 @@ pricing:
 - {name: Portrait, folder: 'portrait', file: 'pricing/portrait.html'}
 - {name: Travel, folder: 'travel', file: 'pricing/travel.html'}
 - {name: Event, folder: 'event', file: 'pricing/event.html'}
-
-
