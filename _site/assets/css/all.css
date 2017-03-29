@@ -351,14 +351,7 @@ footer {
   line-height: 130%; }
 
 .TextLock {
-  max-width: 1170px;
-  display: -webkit-box;
-  display: -moz-box;
-  display: box;
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flexbox;
-  display: flex;
+  max-width: 850px;
   margin: 0 auto;
   -webkit-box-align: center;
   -moz-box-align: center;
@@ -368,25 +361,10 @@ footer {
   -ms-align-items: center;
   -o-align-items: center;
   align-items: center;
-  -ms-flex-align: center;
-  -webkit-box-pack: justify;
-  -moz-box-pack: justify;
-  box-pack: justify;
-  -webkit-justify-content: space-between;
-  -moz-justify-content: space-between;
-  -ms-justify-content: space-between;
-  -o-justify-content: space-between;
-  justify-content: space-between;
-  -ms-flex-pack: justify; }
-  .TextLock .AboutMeLeft {
+  -ms-flex-align: center; }
+  .TextLock .AboutMe {
     margin: 25px 25px;
-    text-align: justify;
-    letter-spacing: 0.05em;
-    font-size: 18px;
-    line-height: 130%; }
-  .TextLock .AboutMeRight {
-    margin: 25px 25px;
-    text-align: justify;
+    text-align: center;
     letter-spacing: 0.05em;
     font-size: 18px;
     line-height: 130%; }
@@ -1082,6 +1060,23 @@ footer {
         -o-transform: scale(1.5);
         transform: scale(1.5);
         opacity: 1; }
+    .BGContact .ContactIcons .PhoneNumber {
+      margin: 15px 35px 0 0;
+      float: left;
+      font-size: 18px;
+      opacity: 0.7;
+      -webkit-transition: 1s;
+      -moz-transition: 1s;
+      transition: 1s; }
+      .BGContact .ContactIcons .PhoneNumber:hover {
+        -webkit-transform: scale(1.5);
+        -moz-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+        -o-transform: scale(1.5);
+        transform: scale(1.5);
+        opacity: 1; }
+    .BGContact .ContactIcons .TeleIc {
+      float: right; }
   .BGContact .MiddleRuler {
     max-width: 50%;
     height: 0px;
