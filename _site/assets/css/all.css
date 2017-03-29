@@ -219,7 +219,7 @@ td, th {
   100% {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg); } }
-header nav a, footer .NavContainer .Nav1 a, footer .NavContainer .Nav2 a {
+header nav a, footer .NavContainer .Nav2 a {
   font-size: 20px;
   font-weight: 400;
   text-transform: uppercase; }
@@ -285,15 +285,9 @@ footer {
   height: 375px;
   background: url(../img/footer.jpg) center;
   background-size: cover; }
-  footer .NavContainer .Nav1 {
+  footer .NavContainer iframe {
     float: right;
-    margin: 30px 75px 0 0; }
-    footer .NavContainer .Nav1 a {
-      display: inline-block;
-      margin-left: 50px;
-      color: rgba(255, 255, 255, 0.7); }
-      footer .NavContainer .Nav1 a:hover {
-        color: white; }
+    margin: 30px 75px 0 30px; }
   footer .NavContainer .Nav2 {
     float: left;
     margin: 320px 0 0 0; }
