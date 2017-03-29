@@ -880,7 +880,6 @@ footer {
         -moz-perspective: 300px;
         perspective: 300px; }
         .BGPrint .PrintCont .LeftPrintCont .PrintMedLeft .overlay {
-          cursor: pointer;
           top: 0%;
           right: 0px;
           left: 0px;
@@ -902,17 +901,13 @@ footer {
           -o-transform-origin: center bottom;
           transform-origin: center bottom;
           opacity: 0; }
-        @media screen and (max-width: 750px) {
-          .BGPrint .PrintCont .LeftPrintCont .PrintMedLeft {
-            border-radius: 100px;
-            margin: 20px 15px auto; }
-            .BGPrint .PrintCont .LeftPrintCont .PrintMedLeft strong {
-              display: block;
-              padding: 100px 0px 30px 0px;
-              color: black;
-              font-weight: 300;
-              text-transform: uppercase;
-              font-size: 24px; } }
+          .BGPrint .PrintCont .LeftPrintCont .PrintMedLeft .overlay strong {
+            display: block;
+            padding: 100px 0px 30px 0px;
+            color: black;
+            font-weight: 300;
+            text-transform: uppercase;
+            font-size: 24px; }
         .BGPrint .PrintCont .LeftPrintCont .PrintMedLeft:hover .overlay {
           top: 0%;
           -webkit-transform: rotateX(0deg);
@@ -977,7 +972,6 @@ footer {
         -moz-perspective: 300px;
         perspective: 300px; }
         .BGPrint .PrintCont .RightPrintCont .PrintMedRight .overlay {
-          cursor: pointer;
           top: 0%;
           right: 0px;
           left: 0px;
