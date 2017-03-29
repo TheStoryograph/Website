@@ -756,7 +756,7 @@ footer {
       .Pricingwrapper .BottomContentWrapper .LeftArrBox:hover {
         opacity: 1; }
     .Pricingwrapper .BottomContentWrapper .InfoTextBox {
-      background: rgba(0, 0, 0, 0.5);
+      background: rgba(0, 0, 0, 0.65);
       border: 2px solid white;
       margin: 25px 20px auto 20px;
       width: 75%;
@@ -776,6 +776,8 @@ footer {
           .Pricingwrapper .BottomContentWrapper .InfoTextBox p {
             letter-spacing: 0.05em;
             font-size: 14px; } }
+      .Pricingwrapper .BottomContentWrapper .InfoTextBox .Disclaimer {
+        font-size: 14px; }
     .Pricingwrapper .BottomContentWrapper .RightArrBox {
       height: 40px;
       width: 40px;
@@ -1060,23 +1062,13 @@ footer {
         -o-transform: scale(1.5);
         transform: scale(1.5);
         opacity: 1; }
-    .BGContact .ContactIcons .PhoneNumber {
-      margin: 15px 35px 0 0;
-      float: left;
-      font-size: 18px;
-      opacity: 0.7;
-      -webkit-transition: 1s;
-      -moz-transition: 1s;
-      transition: 1s; }
-      .BGContact .ContactIcons .PhoneNumber:hover {
-        -webkit-transform: scale(1.5);
-        -moz-transform: scale(1.5);
-        -ms-transform: scale(1.5);
-        -o-transform: scale(1.5);
-        transform: scale(1.5);
-        opacity: 1; }
     .BGContact .ContactIcons .TeleIc {
-      float: right; }
+      font-size: 20px;
+      height: 20px;
+      width: 200px;
+      text-decoration: none;
+      color: black;
+      opacity: 0.7; }
   .BGContact .MiddleRuler {
     max-width: 50%;
     height: 0px;
